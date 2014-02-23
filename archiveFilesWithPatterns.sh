@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#used to archive files with a specific pattern using grep
+
+#enhancements:
+#use awk for more flexibility
+#specify max directory depth
+
+#Example usage:
+#archiveFilesWithPattern.sh  -p 'hello word'
+#archiveFilesWithPattern.sh  -d ./patternArchive -p 'hello word'
+
 source ./libs/utils.sh
 
 totalArgs=$#
